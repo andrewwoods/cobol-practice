@@ -1,42 +1,65 @@
 
-# Project Name 
+# COBOL Practice
 
-__The tagline for your project__
+__A place to practice__
 
-This is where you write a paragraph or so, describing your project to the
-person reading it, so they know what your project is all about. You could skip
-this part.  However, after all the hard work you put into creating your
-project, it would be a shame if nobody ever used it, because you didn't take
-the time to explain it to them.  You don't have to write a lot - just enough to
-get them interested.
-
-
+I haven't written COBOL since university. So I figured I'd take some time to
+get acquainted—or rather re-acaquainted—with the langauge. I didn't like
+writing it, but is that becuase I was new to programming at the time, or is it
+because I truly didn't enjoy it. Now that I have two decades of progrmaming
+behind me, perhaps this is a good time to re-evaluate my thinking.
 
 ## Version
 
-The current version is 0.0.0. This project uses [semantic versioning](http://semver.org).
+There is no versioning for this project. It's a loose collection of source
+code, rather than a cohesive project.
 
 
-## Features
+## Topics of Interest
 
-Here's a few things you can do:
+Here are some things I should work on:
 
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
+* Hello World
+* Editing code in Neovim with COBOL LSP
+* Code beautifier.
+* Reading data from a file.
+* Writing data to a file.
 
 
 ## Installation
 
-* Create needed top level directories that fit your project (e.g. _bin_, _doc_, _public_, _src_, _tests_)
-* [Create a Git Ignore](https://www.gitignore.io/) file
-    - Add the phpdocs directory to your .gitignore file
-    - Add Editor-specific files to your .gitignore ( .swp for Vim, .idea for PHPStorm, etc. )
+* Install GNU COBOL via Homebrew
+    - Check you've installed it `which cobc`
+    - `brew install gnucobol`
+*
 * Select an [Open Source License](http://opensource.org/licenses) and copy it to LICENSE.txt
 * Update [CONTRIBUTING.md](docs/CONTRIBUTING.md) to match your project needs
 * Create a .env file to manage any settings you need.
 
+## Compiling and Running
+
+### Source Code
+
+Source code lives in the `src` directory. This `fixed` option is the default.
+There are other [source code
+formats](https://gnucobol.sourceforge.io/doc/gnucobol.html#Source-format) that one
+can use to not need to indent every line 6 spaces before the indicator area.
+
+
+### Compiling Code
+
+GNU Cobol uses the name `cobc` for its compiler.
+When compiliing your code, ensure the compiled file is written to the project
+`bin` directory. With GNU Cobol, the `-o` flag sets the name of the output file
+
+The `-x` says to to build an executable program.
+
+
+### Example
+
+```shell
+$ cobc --fixed -x -o bin/hello src/hello-world.cbl
+```
 
 ## Ideas for sections/pages
 
@@ -52,8 +75,8 @@ Here's a few things you can do:
 * [GitHub Markdown](https://help.github.com/categories/writing-on-github/)
 * [Contributing Guidelines](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
 * [Changelog](docs/CHANGELOG.md)
-* [Humans TXT](http://humanstxt.org/) 
-* [Robots TXT](http://www.robotstxt.org/) 
+* [Humans TXT](http://humanstxt.org/)
+* [Robots TXT](http://www.robotstxt.org/)
 * [Git Ignore Generator](https://www.gitignore.io/)
 * [Open Source Licenses](http://opensource.org/licenses/GPL-3.0)
 
