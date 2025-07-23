@@ -14,12 +14,19 @@ behind me, perhaps this is a good time to re-evaluate my thinking.
 There is no versioning for this project. It's a loose collection of source
 code, rather than a cohesive project.
 
+##  Exercises List
+
+The way to learn a language is writing code to solve familiar problems, with
+known results, in your new language.
+
+1. [Hello World](docs/hello-world.md)
+1. [FizzBuzz](docs/fizzbuzz.md)
+
 
 ## Topics of Interest
 
 Here are some things I should work on:
 
-* Hello World
 * Editing code in Neovim with COBOL LSP
 * Code beautifier.
 * Reading data from a file.
