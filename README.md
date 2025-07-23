@@ -87,24 +87,13 @@ $ cobc --fixed -x -o bin/hello src/hello-world.cbl
 * [Git Ignore Generator](https://www.gitignore.io/)
 * [Open Source Licenses](http://opensource.org/licenses/GPL-3.0)
 
-### PHP
+### COBOL
 
 
-* [Supported Versions](https://www.php.net/supported-versions.php)
-* [PHPDocumentor Docs](https://docs.phpdoc.org/)
-* [PHPStan User Guide](https://phpstan.org/user-guide/getting-started)
-* [Composer Docs](https://getcomposer.org/doc/)
-* [XDebug](https://xdebug.org/)
-
-### Python
-
-* [Python Docs Homepage](https://www.python.org/doc/)
-* [Python Enhancement Proposals PEP Index](https://peps.python.org/#topics)
-* [Python Downloads](https://www.python.org/downloads/)
+* [GNU COBOL Manual](https://gnucobol.sourceforge.io/doc/gnucobol.html)
 
 
 ## Credits and Acknowledgments
 
-* Project Creator:  [Firstname Lastname](https://example.com)
-* Current Maintainer: [Firstname Lastname](https://example.com)
+* Project Creator:  [Andrew Woods](https://andrewwoods.net)
 
